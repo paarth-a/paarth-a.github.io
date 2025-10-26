@@ -66,7 +66,7 @@ const Experience: React.FC = () => {
               <div className="timeline-marker">
                 <div className="company-logo">
                   <img 
-                    src={`/logos/${exp.company.toLowerCase()}-logo.png`} 
+                    src={`logos/${exp.company.toLowerCase()}-logo.png`} 
                     alt={`${exp.company} logo`}
                     className="company-logo-img"
                     onError={(e) => {
